@@ -1,0 +1,177 @@
+.email-templates-content {
+  margin-left: 240px;
+  padding: 50px;
+  margin-top: 80px;
+  box-sizing: border-box;
+  background-color: #121212;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-button-container {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 5px 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-add {
+  background-color: #00B4D8; 
+  color: white;
+  font-weight: bold;
+}
+
+.btn-add:hover {
+  background-color: #0097b2; 
+  box-shadow: 0 4px 15px rgba(0, 180, 216, 0.5); 
+}
+
+.template-list {
+  margin-top: 20px;
+}
+
+.template-item {
+  background-color: #1E1E1E; 
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6); 
+  color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.template-item:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8); 
+}
+
+.template-item h2 {
+  margin-top: 0;
+  font-size: 26px; 
+  color: #00B4D8; 
+  font-weight: bold;
+}
+
+.template-item p {
+  margin-top: 10px;
+  font-size: 17px; 
+}
+
+.btn-update {
+  background-color: #6c757d; 
+  color: white;
+  margin-right: 10px;
+  padding: 10px 14px; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-weight: bold; 
+}
+
+.btn-update:hover {
+  background-color: #5a6268; 
+  transform: scale(1.05); 
+  box-shadow: 0 4px 15px rgba(108, 117, 125, 0.5); 
+}
+
+.btn-delete {
+  background-color: #00B4D8;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-weight: bold;
+}
+
+.btn-delete:hover {
+  background-color: #0097b2; 
+  transform: scale(1.05); 
+  box-shadow: 0 4px 15px rgba(0, 180, 216, 0.5); 
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background: #1E1E1E; 
+  padding: 30px; 
+  border-radius: 10px;
+  width: 520px;
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6); 
+}
+
+.popup-content input,
+.popup-content textarea {
+  width: 100%;
+  padding: 12px; 
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: 1px solid #444444;
+  background-color: #2E2E2E; 
+  color: #ffffff;
+  transition: box-shadow 0.3s ease;
+}
+
+.popup-content input:focus,
+.popup-content textarea:focus {
+  box-shadow: 0 0 10px rgba(0, 180, 216, 0.8); 
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-confirm {
+  background-color: #00B4D8; 
+  color: white;
+  font-weight: bold; 
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-confirm:hover {
+  background-color: #0097b2; 
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 180, 216, 0.5); 
+}
+
+.btn-cancel {
+  background-color: #004494; 
+  color: white;
+  font-weight: bold; 
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-cancel:hover {
+  background-color: #004494; 
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px #044691; 
+}
